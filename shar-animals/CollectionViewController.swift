@@ -10,6 +10,10 @@ import UIKit
 
 var ImageForTransition: UIImage = UIImage.init();
 
+var AnimalNameForTransition: String = "";
+var AnimalTimeForTransition: String = "12pm Sunday 28th August 2016";
+var AnimalLocationForTransition: String = "Taronga Zoo";
+
 class CollectionViewController: UIViewController {
     
     @IBOutlet weak var Crocodile: UIImageView!
@@ -41,31 +45,37 @@ class CollectionViewController: UIViewController {
         if touch?.view == Crocodile {
             NSLog("Crocodile has been tapped by the user.")
             ImageForTransition = Crocodile.image!;
+            AnimalNameForTransition = "Crocodile"
             performSegueWithIdentifier("toPhotoView", sender: self)
         }
         else if touch?.view == Echidna {
             NSLog("Echidna has been tapped by the user.")
+            AnimalNameForTransition = "Echidna"
             ImageForTransition = Echidna.image!;
             performSegueWithIdentifier("toPhotoView", sender: self)
         }
         else if touch?.view == Wallaby {
             NSLog("Wallaby has been tapped by the user.")
             ImageForTransition = Wallaby.image!;
+            AnimalNameForTransition = "Wallaby"
             performSegueWithIdentifier("toPhotoView", sender: self)
         }
         else if touch?.view == TasDevil {
             NSLog("Tasmanian Devil has been tapped by the user.")
             ImageForTransition = TasDevil.image!;
+            AnimalNameForTransition = "Tasmanian Devil"
             performSegueWithIdentifier("toPhotoView", sender: self)
         }
         else if touch?.view == Koala {
             NSLog("Koala has been tapped by the user.")
             ImageForTransition = Koala.image!;
+            AnimalNameForTransition = "Koala"
             performSegueWithIdentifier("toPhotoView", sender: self)
         }
         else if touch?.view == Kangaroo {
             NSLog("Kangaroo has been tapped by the user.")
             ImageForTransition = Kangaroo.image!;
+            AnimalNameForTransition = "Kangaroo"
             performSegueWithIdentifier("toPhotoView", sender: self)
         }
         super.touchesEnded(touches, withEvent: event)

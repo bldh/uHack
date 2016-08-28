@@ -18,7 +18,13 @@ class PhotoViewController: UIViewController {
     
     override func viewDidLoad() {
         super.viewDidLoad()
+        
         animalImage.image = ImageForTransition;
+        
+        animalName.text = AnimalNameForTransition;
+        animalDate.text = AnimalTimeForTransition;
+        animalLocation.text = AnimalLocationForTransition;
+        
         // Do any additional setup after loading the view.
     }
     
