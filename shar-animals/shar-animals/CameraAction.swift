@@ -1,43 +1,43 @@
 //
-//  ViewController.swift
+//  CameraAction.swift
 //  shar-animals
 //
-//  Created by Brendan Hodkinson on 27/08/2016.
+//  Created by Grant Upson on 28/08/2016.
 //  Copyright © 2016 Brendan Hodkinson. All rights reserved.
 //
 
+import Foundation
 import UIKit
 
-class ViewController: UIViewController, UIImagePickerControllerDelegate, UINavigationControllerDelegate {
-
+class CameraAction: UIViewController, UIImagePickerControllerDelegate, UINavigationControllerDelegate
+{
+    
     @IBOutlet weak var Camera: UIButton!
     @IBOutlet weak var Gallery: UIButton!
     @IBOutlet weak var ImageDisplay: UIImageView!
-    
     
     override func viewDidLoad() {
         super.viewDidLoad()
         // Do any additional setup after loading the view, typically from a nib.
     }
-
+    
     override func didReceiveMemoryWarning() {
         super.didReceiveMemoryWarning()
         // Dispose of any resources that can be recreated.
     }
-
     
-    @IBAction func GalleryLibraryAction(sender: UIButton)
-    {
+    @IBAction func GalleryLibraryAction(sender: UIButton) {
         let picker = UIImagePickerController()
+        
         picker.delegate = self
         picker.sourceType = .PhotoLibrary
         
         presentViewController(picker, animated: true, completion: nil)
     }
     
-    @IBAction func CameraAction(sender: UIButton)
-    {
+    @IBAction func CameraAction(sender: UIButton) {
         let picker = UIImagePickerController()
+        
         picker.delegate = self
         picker.sourceType = .Camera
         
@@ -47,5 +47,5 @@ class ViewController: UIViewController, UIImagePickerControllerDelegate, UINavig
     func imagePickerController(picker: UIImagePickerController, didFinishPickingMediaWithInfo info: [String : AnyObject]) {
         ImageDisplay.image = info[UIImagePickerControllerOriginalImage] as? UIImage; dismissViewControllerAnimated(true, completion: nil)
     }
+    
 }
-
