@@ -1,0 +1,100 @@
+<!DOCTYPE html>
+
+<!-- This was a template provided by W3School and modified to fit our purpose --!>
+<html>
+<title>Shar-animal</title>
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<link rel="stylesheet" href="http://www.w3schools.com/lib/w3.css">
+<link rel="stylesheet" href="http://www.w3schools.com/lib/w3-theme-black.css">
+<link rel="stylesheet" href="http://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.3.0/css/font-awesome.min.css">
+<body>
+
+<!-- Header -->
+<header class="w3-container w3-theme w3-padding" id="myHeader">
+  <div class="w3-center">
+  <h4>Shar-animal</h4>
+  <h1 class="w3-xxxlarge w3-animate-bottom">For those who want to see them all</h1>
+    <div class="w3-padding-32">
+      <button class="w3-btn w3-xlarge w3-dark-grey w3-hover-light-grey" onclick="document.getElementById('id01').style.display='block'" style="font-weight:900;">Get our app here!</button>
+    </div>
+  </div>
+</header>
+
+<!-- Modal -->
+<div id="id01" class="w3-modal">
+    <div class="w3-modal-content w3-card-8 w3-animate-top">
+      <header class="w3-container w3-theme-l1"> 
+        <span onclick="document.getElementById('id01').style.display='none'" class="w3-closebtn">×</span>
+        <h4>Check us out! <i class="fa fa-smile-o"></i></h4>
+      </header>
+      <div class="w3-padding">
+        <p>Information</p>
+        <p>All source code is available here: <a class="w3-btn" href="https://github.com/bldh/uHack">GitHub repo</a></p>
+      </div>
+      <footer class="w3-container w3-theme-l1">
+        <p>Powered by coffee</p>
+      </footer>
+    </div>
+</div>
+
+<div class="w3-row-padding w3-center w3-margin-top">
+<div class="w3-third">
+  <div class="w3-card-2 w3-padding-top" style="min-height:460px">
+  <h4><strong>Data collected by users</strong></h4><br>
+  <img src="./img/data_f_user.png">
+  <p>What has been spotted?</p>
+  <p>Where and when was it spotted?</p>
+  <p>Store the location and allow others access to find it too!</p>
+  </div>
+</div>
+
+<div class="w3-third">
+  <div class="w3-card-2 w3-padding-top" style="min-height:460px">
+  <h4><strong>A platform to share your experience</strong></h4><br>
+  <!-- <i class="fa fa-css3 w3-margin-bottom w3-text-theme" style="font-size:120px"></i> -->
+  <img src="./img/exp.jpg">
+  <p>Share what you've spotted with friends and family.</p>
+  <p>Keep track of what you've spotted so far.</p>
+  </div>
+</div>
+
+<div class="w3-third">
+  <div class="w3-card-2 w3-padding-top" style="min-height:460px">
+  <h4><strong>Open data for research</strong></h4><br>
+ <img src="./img/res.jpg">
+  <p>Opendata so all have access to the data collected.</p>
+  <button class="w3-btn w3-xlarge w3-dark-grey w3-hover-light-grey" onclick="window.location = './php/gets_csv.php'" style="font-weight:900;">Download database (CSV)</button>
+  </div>
+</div>
+</div>
+<div class="w3-center w3-padding-center" style="min-height:460px">
+  <div class="w3-card-2 w3-padding-center" style="min-height:460px">
+  <h4><strong>What it does</strong></h4><br>
+ <img src="./img/phone.png">
+  <p>This is done through having two core parts to the project the IOS application and the website.</p>
+  <p>The IOS application provides the core function to our larges demographic market segments which is 
+  consists of tourists and hobbies/wildlife enthusiasts. This application is the way in which users collect, 
+  share and gain more information to education themselves and other about the wildlife that they are finding 
+  at there perticular locations. This is done by the users open the application and they are given a menu 
+  screen in which they have two options. The first is view collection, this view takes you to your collection 
+  or gallery of images. This has the ability to filter or share your selected images onto others. Selecting a 
+  single image itself from the view will take you to the photo screen that will show you a full screen image 
+  and more information about about the animal that has been found in the image. The second is Add a photo which 
+  will have a pop up window which will allow you to ether selected a pre existing image form the gallery or take 
+  a new photo. </p>
+  <p>The Website provides the core information for our second target market of researchers. Who may be interested 
+  in accessing the information that is collected and scored by the IOS application. Through a downloadable file to 
+  access the open sores database.</p>
+  </div>
+</div>
+<div class="w3-center w3-padding-center" style="min-height:460px">
+  <div class="w3-card-2 w3-padding-center" style="min-height:460px">
+  <h4><strong>The Development Team</strong></h4><br>
+ <img src="./img/group.png">
+  
+  </div>
+</div>
+	<footer class="w3-container w3-theme-l1">
+        <center><p>Created by undergrads, powered by coffee <i class="fa fa-smile-o"></i></p></center>
+    </footer>
+</body>
