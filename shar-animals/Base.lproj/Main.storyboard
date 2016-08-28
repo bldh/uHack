@@ -388,10 +388,10 @@
                                     <stackView opaque="NO" contentMode="scaleToFill" distribution="fillEqually" translatesAutoresizingMaskIntoConstraints="NO" id="3sb-yx-QMz">
                                         <rect key="frame" x="0.0" y="0.0" width="288" height="163"/>
                                         <subviews>
-                                            <imageView userInteractionEnabled="NO" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="Crocodile" translatesAutoresizingMaskIntoConstraints="NO" id="3aS-5X-Q4V">
+                                            <imageView userInteractionEnabled="NO" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="Rhino" translatesAutoresizingMaskIntoConstraints="NO" id="3aS-5X-Q4V">
                                                 <rect key="frame" x="0.0" y="0.0" width="144" height="163"/>
                                             </imageView>
-                                            <imageView userInteractionEnabled="NO" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="Echidna" translatesAutoresizingMaskIntoConstraints="NO" id="QJs-3W-1nd">
+                                            <imageView userInteractionEnabled="NO" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="Crocodile" translatesAutoresizingMaskIntoConstraints="NO" id="QJs-3W-1nd">
                                                 <rect key="frame" x="144" y="0.0" width="144" height="163"/>
                                             </imageView>
                                         </subviews>
@@ -399,10 +399,10 @@
                                     <stackView opaque="NO" contentMode="scaleToFill" distribution="fillEqually" translatesAutoresizingMaskIntoConstraints="NO" id="uRh-pR-Bbz">
                                         <rect key="frame" x="0.0" y="163" width="288" height="163"/>
                                         <subviews>
-                                            <imageView userInteractionEnabled="NO" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="Kangaroo" translatesAutoresizingMaskIntoConstraints="NO" id="CDn-3s-Bqi">
+                                            <imageView userInteractionEnabled="NO" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="Echidna" translatesAutoresizingMaskIntoConstraints="NO" id="CDn-3s-Bqi">
                                                 <rect key="frame" x="0.0" y="0.0" width="144" height="163"/>
                                             </imageView>
-                                            <imageView userInteractionEnabled="NO" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="Koala" translatesAutoresizingMaskIntoConstraints="NO" id="gSM-fN-rDi">
+                                            <imageView userInteractionEnabled="NO" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="Kangaroo" translatesAutoresizingMaskIntoConstraints="NO" id="gSM-fN-rDi">
                                                 <rect key="frame" x="144" y="0.0" width="144" height="163"/>
                                             </imageView>
                                         </subviews>
@@ -410,10 +410,10 @@
                                     <stackView opaque="NO" contentMode="scaleToFill" distribution="fillEqually" translatesAutoresizingMaskIntoConstraints="NO" id="uPi-hX-Kue">
                                         <rect key="frame" x="0.0" y="326" width="288" height="163"/>
                                         <subviews>
-                                            <imageView userInteractionEnabled="NO" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="TasDevil" translatesAutoresizingMaskIntoConstraints="NO" id="okn-wC-d2V">
+                                            <imageView userInteractionEnabled="NO" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="Koala" translatesAutoresizingMaskIntoConstraints="NO" id="okn-wC-d2V">
                                                 <rect key="frame" x="0.0" y="0.0" width="144" height="163"/>
                                             </imageView>
-                                            <imageView userInteractionEnabled="NO" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="Wallaby" translatesAutoresizingMaskIntoConstraints="NO" id="4iE-Ds-gCh">
+                                            <imageView userInteractionEnabled="NO" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="TasDevil" translatesAutoresizingMaskIntoConstraints="NO" id="4iE-Ds-gCh">
                                                 <rect key="frame" x="144" y="0.0" width="144" height="163"/>
                                             </imageView>
                                         </subviews>
@@ -452,9 +452,9 @@
         <image name="Gallery" width="746" height="630"/>
         <image name="Kangaroo" width="1920" height="1440"/>
         <image name="Koala" width="1920" height="1280"/>
+        <image name="Rhino" width="2048" height="1365"/>
         <image name="TasDevil" width="1920" height="1440"/>
         <image name="View Collection" width="361" height="109"/>
-        <image name="Wallaby" width="1920" height="1211"/>
     </resources>
     <inferredMetricsTieBreakers>
         <segue reference="3dG-CW-zYg"/>
