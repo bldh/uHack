@@ -7,6 +7,8 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		EF0D65351D72AA2000D0A8C1 /* MySql.swift in Sources */ = {isa = PBXBuildFile; fileRef = EF0D65341D72AA2000D0A8C1 /* MySql.swift */; };
+		EF0D65371D72B6FF00D0A8C1 /* SettingsViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = EF0D65361D72B6FF00D0A8C1 /* SettingsViewController.swift */; };
 		EF16EE741D727C7C00154DB3 /* CollectionViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = EF16EE731D727C7C00154DB3 /* CollectionViewController.swift */; };
 		EF16EE761D727C8D00154DB3 /* FirstLaunchViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = EF16EE751D727C8D00154DB3 /* FirstLaunchViewController.swift */; };
 		EF16EE781D727C9B00154DB3 /* PhotoViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = EF16EE771D727C9B00154DB3 /* PhotoViewController.swift */; };
@@ -20,6 +22,8 @@
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
+		EF0D65341D72AA2000D0A8C1 /* MySql.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = MySql.swift; sourceTree = "<group>"; };
+		EF0D65361D72B6FF00D0A8C1 /* SettingsViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = SettingsViewController.swift; sourceTree = "<group>"; };
 		EF16EE731D727C7C00154DB3 /* CollectionViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = CollectionViewController.swift; sourceTree = "<group>"; };
 		EF16EE751D727C8D00154DB3 /* FirstLaunchViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = FirstLaunchViewController.swift; sourceTree = "<group>"; };
 		EF16EE771D727C9B00154DB3 /* PhotoViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = PhotoViewController.swift; sourceTree = "<group>"; };
@@ -64,6 +68,7 @@
 		EFC809801D71460100CBBBAA /* shar-animals */ = {
 			isa = PBXGroup;
 			children = (
+				EF0D65341D72AA2000D0A8C1 /* MySql.swift */,
 				EFC809811D71460100CBBBAA /* AppDelegate.swift */,
 				EFC809831D71460100CBBBAA /* ViewController.swift */,
 				EFC809851D71460100CBBBAA /* Main.storyboard */,
@@ -75,6 +80,7 @@
 				EF16EE751D727C8D00154DB3 /* FirstLaunchViewController.swift */,
 				EF16EE771D727C9B00154DB3 /* PhotoViewController.swift */,
 				EF16EE791D727CF500154DB3 /* MenuViewController.swift */,
+				EF0D65361D72B6FF00D0A8C1 /* SettingsViewController.swift */,
 			);
 			path = "shar-animals";
 			sourceTree = "<group>";
@@ -111,6 +117,7 @@
 				TargetAttributes = {
 					EFC8097D1D71460100CBBBAA = {
 						CreatedOnToolsVersion = 7.3.1;
+						DevelopmentTeam = CN6FH63QFU;
 					};
 				};
 			};
@@ -154,9 +161,11 @@
 				EF16EE761D727C8D00154DB3 /* FirstLaunchViewController.swift in Sources */,
 				EFC809841D71460100CBBBAA /* ViewController.swift in Sources */,
 				EF16EE7A1D727CF500154DB3 /* MenuViewController.swift in Sources */,
+				EF0D65351D72AA2000D0A8C1 /* MySql.swift in Sources */,
 				EFC809821D71460100CBBBAA /* AppDelegate.swift in Sources */,
 				EFC8098A1D71460100CBBBAA /* shar_animals.xcdatamodeld in Sources */,
 				EF16EE781D727C9B00154DB3 /* PhotoViewController.swift in Sources */,
+				EF0D65371D72B6FF00D0A8C1 /* SettingsViewController.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -269,10 +278,13 @@
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
 				INFOPLIST_FILE = "shar-animals/Info.plist";
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = "com.uhack.shar-animals";
 				PRODUCT_NAME = "$(TARGET_NAME)";
+				PROVISIONING_PROFILE = "";
 			};
 			name = Debug;
 		};
@@ -280,10 +292,13 @@
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
 				INFOPLIST_FILE = "shar-animals/Info.plist";
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = "com.uhack.shar-animals";
 				PRODUCT_NAME = "$(TARGET_NAME)";
+				PROVISIONING_PROFILE = "";
 			};
 			name = Release;
 		};
